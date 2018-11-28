@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="TEST PAGE">
+    <meta name="author" content="salt">
+
+    <title>Tizen IoT</title>
+
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="main-container">
+        <div id="pano-container">
+            <div id="canvas-container">
+                <canvas id="camera-view-canvas" width="640" height="480"></canvas>
+            </div>
+            <div id="pano-container-bg"></div>
+            <img id="pano-view"/>
+            <div id="pano-view-caption" class="image-caption">Panorama View</div>
+        </div>
+        <div id="camera-container">
+            <div id="canvas-container">
+                <canvas id="camera-view-canvas" width="640" height="480"></canvas>
+            </div>
+            <div id="camera-view-bg"></div>
+            <img id="camera-view"/>
+            <div id="camera-view-caption" class="image-caption">Camera Live View</div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/exif-js"></script>
+</body>
+
+</html>

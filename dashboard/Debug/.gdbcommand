@@ -1,0 +1,6 @@
+set sysroot E:\program\tizen\tizen-studio\platforms\tizen-5.0\iot-headless\rootstraps\iot-headless-5.0-device.core
+set debug-file-directory E:\program\tizen\tizen-studio\platforms\tizen-5.0\iot-headless\rootstraps\iot-headless-5.0-device.core\usr\lib\debug
+set solib-search-path E:\git\mini-hackathon\dashboard\Debug
+dir E:\program\tizen\tizen-studio\platforms\tizen-5.0\iot-headless\rootstraps\iot-headless-5.0-device.core\usr\src\debug
+file "E:\git\mini-hackathon\dashboard\Debug\dashboard"
+sharedlibrary
